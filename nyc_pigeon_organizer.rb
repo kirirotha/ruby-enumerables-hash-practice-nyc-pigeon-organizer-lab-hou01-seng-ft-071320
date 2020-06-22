@@ -46,7 +46,7 @@ def nyc_pigeon_organizer(data)
       end
     end
     
-  puts data2
+  puts data2_uniq
   
     
   
