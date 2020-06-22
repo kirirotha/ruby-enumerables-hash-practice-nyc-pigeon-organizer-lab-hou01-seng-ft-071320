@@ -37,11 +37,12 @@ def nyc_pigeon_organizer(data)
       key1 = key1.to_sym
       data2 << data[key1]
       data2.each do |key2|
+        key2 = key2.to_sym
         data3 << data[key2]
         
       end
     end
-  puts data2
+  puts data3
     
   
 end
