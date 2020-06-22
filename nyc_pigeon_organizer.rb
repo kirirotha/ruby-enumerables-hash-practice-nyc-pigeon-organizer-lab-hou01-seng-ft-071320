@@ -47,7 +47,7 @@ def nyc_pigeon_organizer(data)
           if !data2[name][attribute_type]
             data2[name][attribute_type] = []
           end
-          data2[name][attribute_type].push(attribute)
+          data2[name][attribute_type] << attribute
           
           
           
