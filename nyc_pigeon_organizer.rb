@@ -39,7 +39,7 @@ def nyc_pigeon_organizer(data)
         data3 << data2["Subway"]
       end  
     end
-  puts data2
+  puts data3
     
   
 end
