@@ -34,9 +34,9 @@ def nyc_pigeon_organizer(data)
   data2 = []
   data2_uniq = []
     data.each do |key1, value1|
-      puts key1
+      #puts key1
       value1.each do |key2, value2|
-        puts key2
+        #puts key2
         data2 << [value2]
         data2_uniq = data2.uniq
       end
