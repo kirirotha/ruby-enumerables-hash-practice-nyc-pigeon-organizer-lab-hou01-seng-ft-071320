@@ -40,7 +40,7 @@ def nyc_pigeon_organizer(data)
         puts key2
       end
     end
-  puts data2
+  #puts data2
     
   
 end
