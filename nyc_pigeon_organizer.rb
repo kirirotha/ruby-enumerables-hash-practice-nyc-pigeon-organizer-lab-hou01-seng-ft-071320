@@ -36,7 +36,7 @@ def nyc_pigeon_organizer(data)
     data.each do |key1, value1|
       data2 << data[key1]
       data2.each do |key2,value2|
-        data3 << data2[key2].to_sym
+        data3 << data2[:lives].to_sym
       end  
     end
   puts data3
