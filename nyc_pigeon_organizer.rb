@@ -38,10 +38,12 @@ def nyc_pigeon_organizer(data)
       value1.each do |key2, value2|
         puts key2
         data2 << [value2]
+        data2_uniq = data2.uniq
       end
     end
     
   puts data2
+  
     
   
 end
