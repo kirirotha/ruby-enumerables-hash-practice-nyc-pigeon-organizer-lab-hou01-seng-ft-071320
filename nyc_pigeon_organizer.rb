@@ -40,13 +40,12 @@ def nyc_pigeon_organizer(data)
         #puts value2
         value2.each do |key3, value3|
           #puts key3.to_s + " " + key2.to_s + " " + key1.to_s
-          data2 << key3
+          data2 << key3[key2]
           data2 = data2.uniq.sort
               
         end
         value2.each do |key3, value3|
-          #data2 = key3[key2][key1]
-              
+
         end
       end
     end
