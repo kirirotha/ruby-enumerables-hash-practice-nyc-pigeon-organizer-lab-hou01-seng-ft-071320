@@ -34,15 +34,9 @@ def nyc_pigeon_organizer(data)
   data2 = []
   data3 = []
     data.each do |key1, value1|
-      key1 = key1
-      data2 << data[key1]
-      data2.each do |key2|
-        key2 = key2
-        puts data2[key2]
-        
-      end
+      names << data[key1]
     end
-  #puts data2
+  puts data2
     
   
 end
