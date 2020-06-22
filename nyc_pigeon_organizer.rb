@@ -43,6 +43,7 @@ def nyc_pigeon_organizer(data)
           attribute_type = key1 
           attribute = key2
           if !data2[name]
+            data2
             
           
           
