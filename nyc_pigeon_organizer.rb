@@ -31,7 +31,6 @@ pigeon_data = {
 def nyc_pigeon_organizer(data)
   # write your code here!
   data2 = []
-  data2_uniq = []
     data.each do |key1, value1|
       #puts key1
       value1.each do |key2, value2|
@@ -46,7 +45,7 @@ def nyc_pigeon_organizer(data)
             data2[name] = {}
           end
           if !data2[name][attribute_type]
-            data2[name][attribute_type] = []
+            !data2[name][attribute_type] = []
           end
           data2[name][attribute_type].push(attribute)
           
