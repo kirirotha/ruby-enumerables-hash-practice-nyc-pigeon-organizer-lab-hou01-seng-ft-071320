@@ -44,7 +44,10 @@ def nyc_pigeon_organizer(data)
           data2 = data2.uniq.sort
               
         end
-        
+        value2.each do |key3, value3|
+          
+              
+        end
       end
     end
     
