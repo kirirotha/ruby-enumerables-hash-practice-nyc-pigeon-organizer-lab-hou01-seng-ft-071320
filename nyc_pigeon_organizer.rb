@@ -38,7 +38,9 @@ def nyc_pigeon_organizer(data)
       value1.each do |key2, value2|
         #puts key2
         #puts value2
-        puts value2.to_s + " "  + key2.to_s + " " + key1.to_s
+        value2.each do |key3, value3|
+          puts value2.to_s + " "  + key2.to_s + " " + key1.to_s
+        end
       end
     end
     
