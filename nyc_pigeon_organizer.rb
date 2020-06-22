@@ -42,13 +42,13 @@ def nyc_pigeon_organizer(data)
           name = key3
           attribute_type = key1 
           attribute = key2
-          if !data2[name]
-            data2[name] = {}
-          end
-          if !data2[name][attribute_type]
-            data2[name][attribute_type] = []
-          end
-          data2[name][attribute_type] << attribute
+#          if !data2[name]
+ #           data2[name] = {}
+  #        end
+   #       if !data2[name][attribute_type]
+    #        data2[name][attribute_type] = []
+     #     end
+      #    data2[name][attribute_type] << attribute
           
           
           
