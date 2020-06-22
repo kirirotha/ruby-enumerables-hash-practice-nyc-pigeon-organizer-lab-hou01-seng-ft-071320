@@ -37,7 +37,7 @@ def nyc_pigeon_organizer(data)
         #puts key2
         #puts value2
         value2.each do |key3|
-          puts key3.to_s + " " + key1.to_s + " " + key2.to_s
+          #puts key3.to_s + " " + key1.to_s + " " + key2.to_s
           name = key3
           attribute_type = key1 
           attribute = key2
@@ -59,7 +59,7 @@ def nyc_pigeon_organizer(data)
   puts data2
   
     
-  
+data2  
 end
 
 
