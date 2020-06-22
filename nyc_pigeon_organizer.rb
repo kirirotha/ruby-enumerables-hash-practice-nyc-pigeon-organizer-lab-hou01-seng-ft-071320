@@ -30,7 +30,6 @@ pigeon_data = {
 
 def nyc_pigeon_organizer(data)
   # write your code here!
-  names = []
   data2 = []
   data2_uniq = []
     data.each do |key1, value1|
@@ -39,9 +38,9 @@ def nyc_pigeon_organizer(data)
         #puts key2
         #puts value2
         value2.each do |key3, value3|
-          #puts key3.to_s + " " + key2.to_s + " " + key1.to_s
-          names << key3
-          names = names.uniq.sort
+          puts key3.to_s + " " + key1.to_s + " " + key2.to_s
+          names = key3
+          attribute = key1 
           
           
               
