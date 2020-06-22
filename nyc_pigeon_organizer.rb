@@ -34,14 +34,14 @@ def nyc_pigeon_organizer(data)
   data2 = []
   data3 = []
     data.each do |key1, value1|
-      key1 = 
+      key1 = key1.tosym
       data2 << data[key1]
       data2.each do |key2|
         data3 << data[key2]
         
       end
     end
-  puts data
+  puts data2
     
   
 end
