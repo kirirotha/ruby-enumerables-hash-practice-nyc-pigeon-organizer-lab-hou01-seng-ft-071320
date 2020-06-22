@@ -39,7 +39,7 @@ def nyc_pigeon_organizer(data)
         data3 << data2[:lives]
       end  
     end
-  puts data3
+  puts data2
     
   
 end
